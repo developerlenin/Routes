@@ -1,0 +1,75 @@
+.services{
+	width:100%;
+}		
+.services-head h1{
+	text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin: 65px 0px;
+    font-weight: 500;
+}
+.my-services{
+	width:80%;
+	margin:auto;
+}
+.box-one{  
+	dispaly:flex;
+	width:100%;	
+}	
+.box1{
+	position:relative;
+	width:33.33%;
+	height: 224px;
+    box-shadow: 0 0 10px rgb(237 230 225);
+	margin: 22px 13px;
+}
+#hexagon {
+  width: 100px;
+  height: 57.735px;
+  background: red;
+  position: relative;
+    margin: 0px 94px;
+}
+#hexagon::before {
+  content: "";
+  position: absolute;
+  top: -28.8675px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 28.8675px solid red;
+}
+#hexagon::after {
+  content: "";
+  position: absolute;
+  bottom: -28.8675px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 28.8675px solid red;
+}
+.hexagan-icon {
+	font-size: 43px !important;
+    color: rgb(255 255 255) !important;
+    margin: 0px 27px !important;
+}
+.boxone{
+	display:flex;
+}
+.box1-text{
+	text-align: center;
+    width: 80%;
+    font-size: 17px;
+    padding: 0px 30px;
+    line-height: 27px;
+    font-family: sans-serif;
+	margin: 30px 0px;
+}
+.box1-text p{
+	font-size: 13px;
+    color: rgb(128 128 128);
+}
